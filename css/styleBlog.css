@@ -92,3 +92,10 @@ h3{
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
+footer{
+  text-align: center;
+  font-size: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 0;
+}
