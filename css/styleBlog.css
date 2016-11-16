@@ -80,7 +80,8 @@ p{
 }
 
 #imgArt{
-  width: 100%;
+  text-align: center;
+  width: 50%;
   height: auto;
   margin-top: 5%;
   margin-bottom: 5%;
