@@ -57,7 +57,7 @@ h2{
   margin-right: 5%;
   border:0.5px solid white;
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 #titreArt{
@@ -82,10 +82,12 @@ p{
 #imgArt{
   width: 100%;
   height: auto;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 h3{
   text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
