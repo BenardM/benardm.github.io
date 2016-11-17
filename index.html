@@ -12,17 +12,9 @@
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="css/bootstrap-theme.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.css.map">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.css.map">
         <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css.map">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/styleBlog.css">
+        <link rel="stylesheet" href="../Taverne/css/social.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -50,13 +42,41 @@
              </div><!-- /.nav-collapse -->
          </div><!-- /.container -->
      </nav>
-     <h1>Maxime Benard</h1>
-     <h2>Talking about the internet. On the internet.</h2>
+     <header>
+       <h1>Maxime Benard</h1>
+       <h2>Talking about the internet. On the internet.</h2>
+       <ul class="soc">
+            <li><a class="soc-twitter soc-icon-last" href="https://www.twitter.com/MaximeBenard_"></a></li>
+        </ul>
+       <h3 id="artHeader">Publications :</h3>
+     </header>
+
+
+     <div class="Article">
+       <h3 id="titreArt">MacBook Pro 2016 -Hype ?</h3>
+       <p>
+         <iframe width="100%" height="315" src="https://www.youtube.com/embed/WVPRkcczXCY" frameborder="0" allowfullscreen></iframe>
+         Enfin ! <br>
+         Le mois dernier, Apple a annoncé sa nouvelle gamme de MacBook Pro 2016. Attendu par de nombreux utilisateurs, cette génération est maintenant l'objet de nombreuses critiques. Voyons maintenant si celles-ci sont justifiées.</p>
+         <h3>Résumé des nouveautées</h3>
+         <p>
+         Faisons le points sur les principales nouveautées de ce MacBook Pro 2016. <br>
+         LA grosse nouveauté est l'apparition de la TouchBar. Il s'agit d'un écran AMOLED tactile qui vient remplacer les touches de fonction sur le clavier. Celui-ci intègre aussi TouchID, le capteur d'empreintes digital déjà présent sur les appareils iOS.</p>
+         <img id="imgArt" src="img/ART161116/macbook-pro-touch-bar.png" alt="" />
+         <p>Passons maintenant au sujet qui fâche, la connectivité. <br>
+         Prenant exemple sur son MacBook 12", les port USB que l'on pouvait trouver sur nos anciens Macs sont remplacés par des ports USB Type-C qui permettent la recharge de l'appareil ainsi que connecter tout types de périphériques (stockage, écrans, etc...). <br>
+         Et c'est tout. Plus de port HDMI, Ethernet, MagSafe, carte SD...
+         Et puis les "nouveautées" classiques : Plus rapide, plus fin, plus léger, meilleur son, meilleur écran...
+       </p>
+       <p class="footArt">
+         Publié le 16/11 par Maxime Benard
+       </p>
+     </div>
 
      <div class="Article">
        <h3 id="titreArt">Que pensez vous de YouTube en france ?</h3>
        <p>
-         <img id="imgArt" src="img/YTART/ytlogo.png" alt=""/><br>
+         <img id="imgArt" src="img/YTART/ytlogo.png" alt="" align="middle"/><br>
           Il y a quelques mois de ça, YouTube occupais environ 70% de mes consultations quotidiennes sur internet. En 2015, j’avais le sentiment que la création de contenu français sur Internet, et plus particulièrement sur cette plateforme, étais sur le point de prendre une dimension encore plus grande dans le sens positif du terme.
           Avec du contenu de plus en plus intéressant et de bonne qualité, je sentais une progression comme il n’y en avais jamais eu auparavant. Une véritable culture étais en train d’émerger auprès du grand public et le nombre de consommateurs de ce type média ne cessais d’augmenter.<br><br>
           Je pensais alors que la création ne pouvait que s’améliorer avec le temps. Malheureusement, je me suis rendu compte il y a quelques temps que YouTube avais d’ores et déjà connu son apogée.<br><br>
@@ -78,27 +98,7 @@
        </p>
      </div>
 
-     <!--<div class="Article">
-       <h3 id="titreArt">MacBook Pro 2016 -Hype ?</h3>
-       <p>
-         <!--<img id="imgArt" src="img/background.jpg" alt="" />
-         <iframe width="100%" height="315" src="https://www.youtube.com/embed/WVPRkcczXCY" frameborder="0" allowfullscreen></iframe>
-         Enfin ! <br>
-         Le mois dernier, Apple a annoncé sa nouvelle gamme de MacBook Pro 2016. Attendu par de nombreux utilisateurs, cette génération est maintenant l'objet de nombreuses critiques. Voyons maintenant si celles-ci sont justifiées.</p>
-         <h3>Résumé des nouveautées</h3>
-         <p>
-         Faisons le points sur les principales nouveautées de ce MacBook Pro 2016. <br>
-         LA grosse nouveauté est l'apparition de la TouchBar. Il s'agit d'un écran AMOLED tactile qui vient remplacer les touches de fonction sur le clavier. Celui-ci intègre aussi TouchID, le capteur d'empreintes digital déjà présent sur les appareils iOS.</p>
-         <img id="imgArt" src="img/ART161116/macbook-pro-touch-bar.png" alt="" />
-         <p>Passons maintenant au sujet qui fâche, la connectivité. <br>
-         Prenant exemple sur son MacBook 12", les port USB que l'on pouvait trouver sur nos anciens Macs sont remplacés par des ports USB Type-C qui permettent la recharge de l'appareil ainsi que connecter tout types de périphériques (stockage, écrans, etc...). <br>
-         Et c'est tout. Plus de port HDMI, Ethernet, MagSafe, carte SD...<br>
-         Et puis les "nouveautées" classiques : Plus rapide, plus fin, plus léger, meilleur son, meilleur écran...
-       </p>
-       <p class="footArt">
-         Publié le 16/11 par Maxime Benard
-       </p>
-     </div>-->
+
 
 
 
