@@ -103,3 +103,9 @@
 .soc-snapchat:before {
     content:'\e03f';
 }
+.soc-medium {
+    background-color: #000000;
+}
+.soc-medium:before {
+    content:'\e06d';
+}
