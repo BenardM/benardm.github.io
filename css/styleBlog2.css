@@ -8,7 +8,7 @@
 body {
   background-color: white;
   color: white;
-  font-family: 'police1';
+  font-family: 'Lora', serif;
 }
 
 h1 {
@@ -27,6 +27,7 @@ h2{
   color: black;
   text-align: center;
   margin-bottom: 5%;
+  font-family: 'police1';
 }
 
 h3{
@@ -126,4 +127,11 @@ blockquote{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
 }
