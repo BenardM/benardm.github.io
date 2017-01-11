@@ -11,20 +11,32 @@ body {
   font-family: 'Lora', serif;
 }
 
+header{
+  background-image: url(cover5.gif);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:top;
+}
+
 h1 {
   transition: 0.5s;
   text-align: center;
   padding-top: 100px;
-  color: black;
+  color: white;
   font-size: 80px;
-  font-family: 'Lora', serif;
+  font-family: 'Quicksand', sans-serif;
+  opacity: 0.2;
   font-weight: lighter;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+h1:hover{
+  transition: 0.5s;
+  opacity: 1;
 }
 
 
 h2{
-  color: black;
+  color: white;
   text-align: center;
   margin-bottom: 5%;
   font-family: 'police1';
@@ -32,14 +44,17 @@ h2{
 
 h3{
   font-family: 'Lobster', cursive;
-  color: black;
+  color: white;
 }
 h4{
-  color: black;
+  color: white;
   text-align: center;
   font-size: 30px;
+  font-family: 'police1';
 }
-
+p{
+  color: black;
+}
 .navbar-brand {
     font-size: 24px;
     color: black;
