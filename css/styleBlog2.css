@@ -12,31 +12,24 @@ body {
 }
 
 header{
-  background-image: url(cover5.gif);
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position:top;
+    background-color: white;
 }
 
 h1 {
-  transition: 0.5s;
+
   text-align: center;
   padding-top: 100px;
-  color: white;
+  color: black;
   font-size: 80px;
-  font-family: 'Quicksand', sans-serif;
-  opacity: 0.2;
-  font-weight: lighter;
+  font-family: 'police1';
+  font-weight: bolder;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
-h1:hover{
-  transition: 0.5s;
-  opacity: 1;
-}
+
 
 
 h2{
-  color: white;
+  color: black;
   text-align: center;
   margin-bottom: 5%;
   font-family: 'police1';
@@ -58,7 +51,8 @@ p{
 .navbar-brand {
     font-size: 24px;
     color: black;
-    font-family: 'Lora', serif;
+    font-family: "police1";
+    font-weight: bolder;
 }
 .navbar {
   background-color: rgba(255, 255, 255, 0.98);

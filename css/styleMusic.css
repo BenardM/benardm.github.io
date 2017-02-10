@@ -11,14 +11,15 @@ body {
   font-family: 'Lora', serif;
 }
 
-h1 {
+h4 {
+  margin-left: 5%;
   transition: 0.5s;
-  text-align: center;
+  text-align: left;
   padding-top: 100px;
   color: white;
   font-size: 60px;
-  font-family: 'Cinzel', serif;
-  font-weight: lighter;
+  font-family:"police1";
+  font-weight: bolder;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 h1:hover{
@@ -29,7 +30,7 @@ h1:hover{
 
 h2{
   color: white;
-  text-align: center;
+  text-align: left;
   margin-bottom: 5%;
   font-family: 'Cinzel', serif;
 }
@@ -144,9 +145,11 @@ blockquote{
 }
 #intro{
   transition: 1s;
+  margin-left: 5%;
   color: white;
   opacity: 0.5;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "police1";
+
 }
 
 #intro:hover{
