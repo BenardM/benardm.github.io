@@ -11,10 +11,13 @@ header{
 }
 
 .headerDev{
-  margin: 5%;
+  margin-left: 5%;
 }
 
 navbar{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+
   color: white !important;
   box-shadow: 10px 10px 5px grey;
 }
