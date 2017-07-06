@@ -1,4 +1,11 @@
+@font-face {
+    font-family: "police1";
+    src: url("../font/System San Francisco Text Regular.ttf");
+}
+
 header{
   background-color: white;
-  border-bottom: black;
+  border-bottom: thick dotted #ff0000;
+  font-family: "police1";
+
 }
