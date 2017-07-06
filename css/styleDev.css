@@ -7,4 +7,6 @@ header{
   background-color: white;
   border-bottom: thin dotted #000000;
   font-family: 'Roboto', sans-serif;
+  color: black;
+  margin: 5%;
 }
