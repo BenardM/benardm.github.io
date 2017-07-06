@@ -18,6 +18,6 @@ header{
 navbar{
   color: black;
   font-family: 'Roboto', sans-serif;
-  color: white !important;
+  background-color: white;
   box-shadow: 10px 10px 5px grey;
 }
