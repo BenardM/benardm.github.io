@@ -5,7 +5,6 @@
 
 header{
   background-color: white;
-  border-bottom: thick dotted #ff0000;
-  font-family: "police1";
-
+  border-bottom: thin dotted #000000;
+  font-family: police1;
 }
