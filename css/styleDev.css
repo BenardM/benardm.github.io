@@ -5,8 +5,11 @@
 
 header{
   background-color: white;
-  border-bottom: thin dotted #000000;
+  border-bottom: thin #000000;
   font-family: 'Roboto', sans-serif;
   color: black;
+}
+
+.headerDev{
   margin: 5%;
 }
