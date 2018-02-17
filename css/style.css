@@ -1,100 +1,82 @@
-header{
-
-
-  text-align: left;
-  margin-left: 5%;
-  margin-right: 5%;
-
+@font-face {
+  font-family: "Polya";
+  src: url(../fonts/POLYA.otf);
 }
 
+@font-face{
+  font-family: "ONEDAY";
+  src: url(../fonts/ONEDAY.ttf);
+}
+
+@font-face{
+  font-family: "Etna";
+  src: url(../fonts/Etna.otf);
+}
+
+
 body{
-  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(36, 0, 0), rgb(107, 1, 121), rgb(165, 0, 0));
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
 }
 
 h1{
-  font-size: 55px !important;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 850% !important;
+  font-family: "Polya";
+  color: white;
 }
-
 h2{
-  font-size: 25px;
-  color: grey;
-  font-family: 'Dosis', sans-serif;
+  transition: 0.5s;
+  font-size: 100px !important;
+  font-family: "Etna";
+  color: white;
+  text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.507);
 }
-h3{
-  font-size: 20px;
-  font-family: 'Dosis', sans-serif;
+h2:hover{
+  transition: 0.5s;
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.678);
 }
-h4{
-  margin-left: 5%;
-  border-bottom: thin grey;
-}
-
-button{
-  align-items: center;
-}
-
-button{
-  margin-top: 1%;
-}
-
-.navbar-brand{
-  font-family: 'Dosis', sans-serif;
-}
-
 a{
   transition: 0.5s;
-  text-decoration: none;
-  color: black;
-}
-a:hover{
-  transition: 0.5s;
-  text-decoration: none;
+  font-size: 30px;
+  font-family: "ONEDAY" !important;
+  display: inline-block;
+  margin-left: 3%; 
+  margin-bottom: 3%; 
+  text-decoration: none !important;
   color: white;
 }
 
-.CV{
-  background-color: rgba(255, 255, 255, 0.75);
-  transition: 0.3s;
-  border: thin solid #F2F2F2;
-  margin-top: 3%;
-  margin-left: 10%;
-  margin-right: 10%;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.88);
+a:hover{
+  transition: 0.5s;
+  font-weight: bolder;
+  color:rgb(196, 0, 153);
 }
 
-.CV:hover{
-  transition: 0.3s;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.88);
-  background-color: rgba(255, 255, 255, 0.95);
-}
-
-
-.cvtext{
-  margin: 3%;
-  text-align: justify;
-
-}
-
-.navbar{
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-}
 
 .textHead{
-    display: inline-flex;
+    text-align : center;
 }
 
-img{
-  margin: 5%;
+.bannerHead{
+  display:inline;
+  color: white;
+  letter-spacing: 15px;
 }
 
-li{
-  margin : 1%;
+.edito{
+
+
+  background: rgba(255, 255, 255, 0.185);
 }
+.editoText{
+  margin-left: 5%;
+  margin-right: 5%;
+  color: white;
+}
+
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
@@ -131,27 +113,3 @@ li{
 	}
 }
 
-.h2Head{
-  color: white;
-}
-
-.navbar{
-  background-color: rgba(255, 255, 255, 0.67);
-
-}
-
-#downCV{
-  text-align: center;
-
-  font-family: 'Dosis', sans-serif;
-}
-#downCV:hover{
-  color: red;
-}
-
-#mailtome{
-  color:grey;
-}
-#mailtome:hover{
-  color:red !important;
-}
