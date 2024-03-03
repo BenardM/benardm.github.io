@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Circo';
+    src: url('fonts/circo.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Cygre-bold';
+    src: url('fonts/Cygre-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cygre-regular';
+    src: url('fonts/Cygre-Regular.ttf') format('truetype');
+}
+
+.diplome {
+    display: inline-block;
+    width: 200px;
+}
+
+.navbar-item {
+    font-family: 'Cygre-bold', sans-serif;
+}
+
+h2 {
+    font-family: 'Cygre-bold', sans-serif;
+}
+
+p {
+    font-family: 'Cygre-regular', sans-serif;
+}

@@ -1,0 +1,39 @@
+{
+    "experiences": [
+        {
+            "entreprise": "NeoSoft | Limoges",
+            "missions": [
+                {
+                    "poste": "Technical Leader",
+                    "date": "Septembre 2023 - Aujourd'hui",
+                    "description": "ASP · Projet Calypso - Contrôle : Nouveau système d’information pour les aides à l’emploi.En charge du développement de la partie contrôle interne sur le programme Calypso."
+                },
+                {
+                    "poste": "Développeur Full-Stack",
+                    "date": "Février 2020 - Septembre 2023",
+                    "description": "Travaux de développement et de test pour des projets logiciels."
+                }
+            ]
+        },
+        {
+            "entreprise": "axYus | Limoges",
+            "missions": [
+                {
+                    "poste": "Développeur PHP",
+                    "date": "Décembre 2018 - Février 2020",
+                    "description": "Projet Zéfir · EOS : Gestion de marchés pour la formation professionnelleMigration PHP 5 vers 7 · Oracle SQL · développement d’évolutions et maintien en conditionopérationnelle"
+                }
+            ]
+        },
+        {
+            "entreprise": "Groupe Créative | Nantes",
+            "missions": [
+                {
+                    "poste": "Développeur PHP",
+                    "date": "Octobre 2017 - Décembre 2018",
+                    "description": "Divers projets PHP, framework Laravel, Symfony, ect..."
+                }
+            ]
+        }
+    ]
+}

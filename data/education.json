@@ -1,0 +1,17 @@
+{
+    "education": [
+      {
+        "diplome": "Licence professionnelle DAGPI",
+        "etablissement": "Université de Bordeaux",
+        "date": "2017",
+        "description": "Développement d'application et gestion de projets informatique."
+      },
+      {
+        "diplome": "BTS SIO",
+        "etablissement": "Lycée Bertran De Born - Périgueux",
+        "date": "2016",
+        "description": "Service informatique aux organisations, solutions logicielles et applications métier."
+      }
+    ]
+  }
+  

@@ -1,33 +1,96 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
-    <title>Maxime Benard</title>
-  </head>
+<html lang="fr" class="has-navbar-fixed-top">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maxime Bénard</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <script src="data-manager.js"></script>
+</head>
 
-  <div class="textHead">
-    <h1>Maxime Benard</h1>
-    <div class="bannerHead">
-      <a href="https://www.youtube.com/channel/UCDmYQi5quetlr0CVpxW9ekg">Musique</a>
-      <a>Parcours professionnel</a>
-    </div>
-  </div>
-  <div class="edito">
-      <div class="editoText">
-        <br>
-        <h2>Bienvenue</h2>
-        <p> Site web en construction.</p>
-        <br>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+          Maxime Bénard
+        </a>
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+          data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="#about">
+            À propos
+          </a>
+          <a class="navbar-item" href="#experience">
+            Expérience
+          </a>
+          <a class="navbar-item" href="#education">
+            Éducation
+          </a>
+          <a class="navbar-item" href="#skills">
+            Compétences
+          </a>
+          <a class="navbar-item" href="#contact">
+            Contact
+          </a>
+        </div>
       </div>
     </div>
-  <body>
-    
-  </body>
+  </nav>
+
+  <section class="section" id="about">
+    <div class="container" id="about-container">
+        <!-- Le contenu de la section "À propos" sera inséré ici -->
+    </div>
+</section>
+
+
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="title">Expérience professionnelle</h2>
+      <div id="experiences-container">
+        <!-- Les expériences professionnelles seront ajoutées ici -->
+      </div>
+    </div>
+  </section>
+
+
+<section class="section" id="education">
+    <div class="container">
+        <h2 class="title">Éducation</h2>
+        <div id="education-container">
+            <!-- Les informations sur l'éducation seront ajoutées ici -->
+        </div>
+    </div>
+</section>
+
+
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="title">Compétences</h2>
+      <div class="tags" id="skills-container">
+        <!-- Compétences seront ajoutées ici -->
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="title">Contact</h2>
+      <p>Email: pro.benardm@gmail.com</p>
+      <p>Linkedin: www.linkedin.com/in/maxime-bénard-759723ba</p>
+    </div>
+  </section>
+</body>
+
 </html>
