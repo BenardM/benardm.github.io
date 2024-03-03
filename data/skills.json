@@ -15,7 +15,12 @@
       "NgRX",
       "DBunit",
       "Maven",
-      "Jira"
+      "Jira",
+      "Lombok",
+      "MapStruct",
+      "JPA",
+      "JUnit",
+      "Jasmine"
     ]
   }
   
